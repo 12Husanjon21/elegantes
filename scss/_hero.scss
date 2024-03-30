@@ -1,0 +1,68 @@
+.hero {
+    width: Hug (832px)px;
+    height: Hug (166px)px;
+    gap: 40px;
+    margin-top: 80px;
+   
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 5.4rem;
+    font-weight: 500;
+    line-height: 5.8rem;
+    letter-spacing: -1px;
+    text-align: center;
+
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-inline: auto;
+}
+
+
+
+.Order {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    font-family: "Inter", sans-serif;
+    width: 256px;
+    height: 68px;
+
+    a {
+        width: Hug 42px;
+        height: Hug 42px;
+        gap: 10px;
+        border-radius: 50%;
+        padding: 1em 1.5em 1em 1.5em;
+        color: white;
+        background-color: #B1B5C3;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.6rem;
+        text-align: center;
+    }
+    
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.6rem;
+        color: #B1B5C3;
+    }
+}
+
+.Order:active {
+    p {
+        color: #000;
+    }
+    a {
+        background-color: #000;
+    }
+}

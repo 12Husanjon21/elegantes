@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  header {
+    width: min(90vw, 1120px);
+    margin: auto;
+  
+    div {
+      button {
+        border: none;
+        background-color: transparent;
+  
+      }
+    }
+  
+  }
+  
+  .link {
+    color: #141718;
+    line-height: 2.4rem;
+    display: inline-flex;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    text-transform: capitalize;
+  
+  }
+  
+
+
+  .nav-container {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 0.5rem;
+    align-items: center;
+    padding-block: 1.6rem;
+  }
+  
+  .nav-container .menu-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .nav-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: min(5vw, 4rem);
+  
+  }
+  
+  .nav-container nav a {
+    color: #6c7275;
+    text-decoration: none;
+    line-height: 1.7;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  
+  .nav-container nav a:active {
+    color: #141718;
+  }
+  
+  .nav-container nav a:hover {
+    color: #141718;
+  }
+  
+  @media screen and (min-width: 600px) {
+  
+    .nav-container .hamburger-menu {
+  
+      display: none;
+    }
+  }
+  
+  .nav-container .icons {
+    list-style: none;
+    display: flex;
+    gap: 1.7rem;
+  }
+  
+  .nav-container .icons li:last-child button {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+  }
+  
+  .nav-container .icons li:last-child button span {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding: 0.2em 0.5em;
+    background: black;
+    color: white;
+    border-radius: 20px;
+  
+  }
+  
+  @media screen and (width <=600px) {
+    .nav-container .icons li:not(:last-child) {
+      display: none;
+    }
+  
+    .nav-container nav ul {
+      display: none;
+    }
+  }
+  
